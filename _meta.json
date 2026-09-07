@@ -1,0 +1,15 @@
+{
+  "name": "laoke-code-review",
+  "slug": "laoke-code-review",
+  "displayName": "代码审查助手",
+  "version": "1.0.0",
+  "author": "局内人·老K",
+  "category": "开发编程",
+  "tags": ["代码审查", "Code Review", "静态扫描", "安全红线", "质量门禁", "Python"],
+  "description": "通用代码审查助手，覆盖安全注入密钥硬编码越权性能可维护性六维，内置静态红线扫描器，输出分级审查报告",
+  "compatibility": "通用（支持 Skill 的 Agent：Claude Code / CodeBuddy / DeepSeek / WorkBuddy 等）",
+  "permissions": "读取源码目录/文件、运行内置 Python 静态扫描脚本、输出 Markdown/JSON 审查报告",
+  "safety": "仅用于合法合规的代码质量审查；内置护栏硬拒恶意代码绕过安全检测未授权入侵等违规请求",
+  "license": "MIT",
+  "entry": "SKILL.md"
+}
